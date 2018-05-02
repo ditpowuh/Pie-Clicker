@@ -1,0 +1,129 @@
+<!--Copyright © Ditpowuh 2018 Copyright Holder All Rights Reserved | All comments are from me-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Configurationns-->
+    <title>Pie Clicker: 0 Pies</title>
+    <link rel="stylesheet" type="text/css" href="CSS/configuration.css">
+    <link rel="shortcut icon" href="Images/pie.png" type="image/x-icon"/>
+  </head>
+  <!--CipherScript is a javascript extension made by me-->
+  <body onbeforeunload="return CipherScript.beforeunload()">
+    <!--Sound Sources-->
+    <div class="wrapper">
+      <audio id="sound1">
+        <source src="Sounds/Sound1.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="sound2">
+        <source src="Sounds/Beep.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="bite">
+        <source src="Sounds/ClickCrunch.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="buy">
+        <source src="Sounds/Buy.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <!--Normal HTML/Javascript/CSS-->
+    <div class="wrapper">
+      <h1 id="texttitle">Pie Clicker: 0 Pies</h1>
+    </div>
+
+    <div class="wrapper">
+      <p id="bonus"></p>
+      <p id="pps">You are earning 0 pies per second from the Upgrades.</p>
+      <p id="ppc">You are earning 1 pies per click.</p>
+    </div>
+
+    <div class="wrapper">
+      <a href="javascript:void(0)" onclick="addpie()">
+        <img class="resizepie" id="pieimage" src="Images/pie.png">
+      </a>
+
+      <p>
+        <b>Amount of pies you got:</b>
+      </p>
+
+      <input type="text" id="text" disabled style = text-align:center>
+    </div>
+
+    <br>
+
+    <div class="wrapper">
+      <p>
+        <b><u>Upgrades:</u></b>
+      </p>
+    </div>
+
+    <div class="wrapper">
+      <a href="javascript:void(0)" onclick="bacu()">
+        <img id="resizeupgrade1" src="Images/upgrade1.png">
+      </a>
+      <p id="acuamount">(0) Normal Auto Clicker (Customers):</p>
+      <p id="price1"><b>Price:</b> (Amount of Customers + 1) * 10</p>
+    </div>
+
+    <div class="wrapper">
+      <a href="javascript:void(0)" onclick="bshopu()">
+        <img id="resizeupgrade2" src="Images/upgrade2.png">
+      </a>
+      <p id="shopuamount">(0) Big Auto Clicker (Shops):</p>
+      <p id="price2"><b>Price:</b> (Amount of Shops + 1) * 100</p>
+    </div>
+
+    <div class="wrapper">
+      <a href="javascript:void(0)" onclick="bfactoryu()">
+        <img id="resizeupgrade3" src="Images/upgrade3.png">
+      </a>
+      <p id="factoryuamount">(0) Huge Auto Clicker (Factories):</p>
+      <p id="price3"><b>Price:</b> (Amount of Factories + 1) * 1000</p>
+    </div>
+
+    <div class="wrapper">
+      <a href="javascript:void(0)" onclick="bppc()">
+        <img id="resizeupgradeppc" src="Images/upgradeppc.png">
+      </a>
+      <p id="pmtamount">(0) Higher Pies Per Click (Pie-Making Tools):</p>
+      <p id="priceppc"><b>Price:</b> (Amount of Pie-Making Tools + 1) * 250</p>
+    </div>
+
+    <br>
+
+    <div class="wrapper">
+      <button>
+        <a class="link" href="#" onclick="save()">Save</a>
+      </button>
+
+      <button>
+        <a class="link" href="#" onclick="load()">Load</a>
+      </button>
+    </div>
+
+    <br>
+
+    <div class="wrapper">
+      <button id="autosavebutton" onclick="autosavebutton()">Autosave: Off</button>
+
+      <br><br>
+
+      <button onclick="reset()">Reset</button>
+    </div>
+
+    <!--Scripts (Javascript)-->
+    <div class="wrapper">
+      <script src="JS/javascript.js"></script>
+      <script src="CipherScript v0.1.4/setup.js"></script>
+    </div>
+
+    <div class="wrapper">
+      <br>
+    </div>
+
+    <!--Copyright ©-->
+    <div class="wrapper">
+      <h5>Copyright © Ditpowuh 2018 Copyright Holder All Rights Reserved.</h5>
+    </div>
+
+  </body>
+</html>

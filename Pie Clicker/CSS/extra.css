@@ -1,0 +1,38 @@
+/*
+Copyright © Ditpowuh 2018 Copyright Holder All Rights Reserved | All comments are from me
+*/
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 75%;
+}
+
+a {
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  color: blue;
+}
+
+button {
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75%;
+  color: blue;
+}
+
+#texttitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+}
+
+.fixedtop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background: black;
+  width: 100%;
+  z-index: 2;
+  opacity: 0.5;
+}
