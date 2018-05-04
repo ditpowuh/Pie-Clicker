@@ -11,3 +11,7 @@ Of course it is.
 ### I want more infomation on this!
 
 I'm not really gonna add any more infomation. Maybe just go check out my other respiratories.
+
+### Will this be updated?
+
+I will work on it, however, I will not update it on GitHub. 
