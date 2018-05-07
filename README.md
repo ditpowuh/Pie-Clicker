@@ -15,3 +15,11 @@ I'm not really gonna add any more infomation. Maybe just go check out my other r
 ### Will this be updated?
 
 I will work on it, however, I will not update it on GitHub. 
+
+### Is this good?
+
+I don't know, I would think so. 
+
+### How big is it?
+
+For actual game size, 1 MB (Megabyte). 
