@@ -22,4 +22,4 @@ I don't know, I would think so.
 
 ### How big is it?
 
-For actual game size, 1 MB (Megabyte). 
+For actual game size, approximately 1 MB (Megabyte). 
