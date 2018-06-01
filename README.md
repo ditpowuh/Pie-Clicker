@@ -1,4 +1,4 @@
-# Pie-Clicker
+# Pie Clicker
 
 ### What is 'Pie Clicker'?
 
