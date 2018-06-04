@@ -6,7 +6,7 @@ Pie Clicker is pretty much a HTML/JS/CSS clone of Cookie Clicker.
 
 ### Is this playable?
 
-Of course it is. You can play it now at this link: https://ditpowuh.github.io/
+Of course it is. You can play it now at this link: https://ditpowuh.github.io/Pie-Clicker/
 
 ### I want more infomation on this!
 
