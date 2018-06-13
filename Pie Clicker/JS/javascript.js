@@ -15,10 +15,6 @@ var acu = 0;
 var shopu = 0;
 var factoryu = 0;
 
-const acuprice = (acu + 1) * 10;
-const shopuprice = (shopu + 1) * 100;
-const factoryprice = (factoryu + 1) * 1000;
-
 //Normal Start-Up\\
 
 if (localStorage.length == 0) {
@@ -90,6 +86,8 @@ function bshopu() {
 }
 
 function bfactoryu() {
+  var calculations3 = factoryu + 1;
+  var factoryprice = calculations3 * 1000;
   if (pies == factoryprice || pies > factoryprice) {
     pies = pies - factoryprice;
     factoryu = factoryu + 1;
