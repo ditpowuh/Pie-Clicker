@@ -2,6 +2,8 @@
 Copyright © Ditpowuh 2018 Copyright Holder All Rights Reserved | All comments are from me
 */
 
+//This is unused\\
+
 if (localStorage.length == 0) {
   localStorage.setItem("passwordset", false);
 }

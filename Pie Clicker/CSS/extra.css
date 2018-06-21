@@ -26,6 +26,17 @@ button {
   font-variant: small-caps;
 }
 
+#email1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100%;
+}
+
+#cancelbonus {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 75%;
+  color: darkblue;
+}
+
 .fixedtop {
   position: fixed;
   top: 0;
