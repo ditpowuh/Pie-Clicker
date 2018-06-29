@@ -2,7 +2,7 @@
 Copyright © Ditpowuh 2018 Copyright Holder All Rights Reserved | All comments are from me
 */
 
-var isMobile = {
+var MobileCheck = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
     },
@@ -19,11 +19,14 @@ var isMobile = {
         return navigator.userAgent.match(/IEMobile/i);
     },
     any: function() {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+        return (MobileCheck.Android() || MobileCheck.BlackBerry() || MobileCheck.iOS() || MobileCheck.Opera() || MobileCheck.Windows());
+    },
+    ERROR: function () {
+      return "ERROR";
     }
 };
 
-if (isMobile.any()) {
+if (MobileCheck.any() === true) {
     window.open("mobile.html", "_self");
 }
 else {
