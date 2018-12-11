@@ -10,7 +10,7 @@ Of course it is. You can play it now at this link: https://ditpowuh.github.io/Pi
 
 ### I want more infomation on this!
 
-I'm not really gonna add any more infomation. Maybe just go check out my other respiratories.
+I'm not really gonna add any more infomation. Maybe just go check out my other repositories.
 
 ### Will this be updated?
 
