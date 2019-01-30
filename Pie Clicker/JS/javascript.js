@@ -34,7 +34,7 @@ var achievement7 = 0;
 
 //Normal Start-Up\\
 
-if (localStorage.length == 0) {
+if (localStorage.length === 0) {
   localStorage.setItem("pieamount", 0);
   localStorage.setItem("upgrade1", 0);
   localStorage.setItem("upgrade2", 0);
@@ -203,25 +203,25 @@ function update() {
 
 function setrandombonus() {
   var chances = Math.floor((Math.random() * 15) + 1);
-  if (chances == 1) {
+  if (chances === 1) {
     var random = Math.floor((Math.random() * 10) + 1);
-    if (random == 1 || random == 2 || random == 3 || random == 4) {
+    if (random === 1 || random === 2 || random === 3 || random === 4) {
       document.getElementById("bonus").innerHTML = "1x (No Bonus)";
       document.getElementById("cancelbonus").innerHTML = "";
     }
-    else if (random == 5 || random == 6 || random == 7) {
+    else if (random === 5 || random === 6 || random === 7) {
       document.getElementById("bonus").innerHTML = "!2X BONUS FOR 45 SECONDS!";
       document.getElementById("cancelbonus").innerHTML = "Cancel Bonus";
       bonus = 2;
       return;
     }
-    else if (random == 8 || random == 9) {
+    else if (random === 8 || random === 9) {
       document.getElementById("bonus").innerHTML = "!3X BONUS FOR 30 SECONDS!";
       document.getElementById("cancelbonus").innerHTML = "Cancel Bonus";
       bonus = 3;
       return;
     }
-    else if (random == 10) {
+    else if (random === 10) {
       document.getElementById("bonus").innerHTML = "!4X BONUS FOR 15 SECONDS!";
       document.getElementById("cancelbonus").innerHTML = "Cancel Bonus";
       bonus = 4;
@@ -231,35 +231,35 @@ function setrandombonus() {
 }
 
 function bonus() {
-  if (bonus != 1) {
+  if (bonus !== 1) {
     var time = 0;
-    if (bonus == 2) {
+    if (bonus === 2) {
       document.getElementById("bonus").innerHTML = "!4X BONUS FOR 15 SECONDS!";
       document.getElementById("cancelbonus").innerHTML = "Cancel Bonus";
       time++;
-      if (time == 45) {
+      if (time === 45) {
         document.getElementById("cancelbonus").innerHTML = "";
         document.getElementById("bonus").innerHTML = "1x (No Bonus)";
         bonus = 1;
         return;
       }
     }
-    else if (bonus == 3) {
+    else if (bonus === 3) {
       document.getElementById("bonus").innerHTML = "!3X BONUS FOR 30 SECONDS!";
       document.getElementById("cancelbonus").innerHTML = "Cancel Bonus";
       time++;
-      if (time == 30) {
+      if (time === 30) {
         document.getElementById("cancelbonus").innerHTML = "";
         document.getElementById("bonus").innerHTML = "1x (No Bonus)";
         bonus = 1;
         return;
       }
     }
-    else if (bonus == 4) {
+    else if (bonus === 4) {
       document.getElementById("bonus").innerHTML = "!4X BONUS FOR 15 SECONDS!";
       document.getElementById("cancelbonus").innerHTML = "Cancel Bonus";
       time++;
-      if (time == 15) {
+      if (time === 15) {
         document.getElementById("cancelbonus").innerHTML = "";
         document.getElementById("bonus").innerHTML = "1x (No Bonus)";
         bonus = 1;
@@ -267,11 +267,11 @@ function bonus() {
       }
     }
   }
-  else if (bonus == 1) {
+  else if (bonus === 1) {
     document.getElementById("bonus").innerHTML = "1x (No Bonus)";
     document.getElementById("cancelbonus").innerHTML = "";
     time++;
-    if (time == 60) {
+    if (time === 60) {
       document.getElementById("bonus").innerHTML = "1x (No Bonus)";
       document.getElementById("cancelbonus").innerHTML = "";
       return;
@@ -325,44 +325,44 @@ function promotional_code() {
 //Unused\\
 
 function achievements() {
-  if (achievement1 == 0) {
-    if (pies == 1 || pies > 1) {
+  if (achievement1 === 0) {
+    if (pies === 1 || pies > 1) {
       alert("Achievement 1: First Click! [Obtain 1 Pie(s)]");
       achievement1 = 1;
     }
   }
-  if (achievement2 == 0) {
-    if (pies == 10 || pies > 10) {
+  if (achievement2 === 0) {
+    if (pies === 10 || pies > 10) {
       alert("Achievement 2: Warming up! [Obtain 10 Pie(s)]");
       achievement2 = 1;
     }
   }
-  if (achievement3 == 0) {
-    if (pies == 100 || pies > 100) {
+  if (achievement3 === 0) {
+    if (pies === 100 || pies > 100) {
       alert("Achievement 3: Getting addicted! [Obtain 100 Pie(s)]");
       achievement3 = 1;
     }
   }
-  if (achievement4 == 0) {
-    if (pies == 1000 || pies > 1000) {
+  if (achievement4 === 0) {
+    if (pies === 1000 || pies > 1000) {
       alert("Achievement 4: Almost addicted! [Obtain 1000 Pie(s)]");
       achievement4 = 1;
     }
   }
-  if (achievement5 == 0) {
-    if (pies == 10000 || pies > 10000) {
+  if (achievement5 === 0) {
+    if (pies === 10000 || pies > 10000) {
       alert("Achievement 5: Addicted! [Obtain 10000 Pie(s)]");
       achievement5 = 1;
     }
   }
-  if (achievement6 == 0) {
-    if (pies == 100000 || pies > 100000) {
+  if (achievement6 === 0) {
+    if (pies === 100000 || pies > 100000) {
       alert("Achievement 6: Addicted god! [Obtain 100000 Pie(s)]");
       achievement6 = 1;
     }
   }
-  if (achievement7 == 0) {
-    if (pies == 1000000 || pies > 1000000) {
+  if (achievement7 === 0) {
+    if (pies === 1000000 || pies > 1000000) {
       alert("Achievement 7: One Million! [Obtain 1000000 Pie(s)]");
       achievement7 = 1;
     }
