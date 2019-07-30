@@ -14,7 +14,7 @@ I'm not really gonna add any more infomation. Maybe just go check out my other r
 
 ### Will this be updated?
 
-I will work on it. I might upload new stuff. 
+This project will not be worked on anymore. So, no new updates.
 
 ### Is this good?
 
